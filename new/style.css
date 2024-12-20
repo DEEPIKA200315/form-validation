@@ -1,0 +1,60 @@
+body {
+    background: rgb(250, 79, 154);
+    background: radial-gradient(circle, rgba(250, 79, 154, 1) 0%, rgba(113, 226, 213, 1) 84%);
+    margin: 0;
+    font-family: 'poppins', 'sans-serif';
+}
+#form{
+    width: 400px;
+    margin: 8vh auto 8vh auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: rgb(6, 6, 104);
+}
+h1:hover{
+    color: rgb(7, 7, 206);
+}
+#form-button{
+    background-color:  rgb(6, 6, 104);
+    color: white;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    width: 85px;
+    font-size: 15px;
+    border: 1px solid rgb(6, 6, 104);
+    /* width: 100%; */
+}
+#form-button:hover{
+    background-color: white;
+    color: #000;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.input-groups{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.input-groups input{
+    font-size: 18px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.error{
+    color: red;
+    margin-top: 5px;
+}
+.input-groups.valid input{
+    border-color: green;
+}
+.input-groups.error input{
+    border-color: red;
+}
+
+
